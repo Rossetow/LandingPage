@@ -3,12 +3,13 @@
     padding: 0;
 }
 
-footer{
+.container-footer{
     display: flex;
-    background-color: rgb(110, 110, 110);
+    background-color: #15AAFF;
     max-width: 100vw;
     height: 25vh;
     padding: 10px;
+    color: #f8f7f3;
 }
 
 section img{
@@ -16,7 +17,7 @@ section img{
     margin-left: 10px;
 }
 
-footer section{
+.container-footer section{
     display: flex;
     justify-content: flex-end;
     align-items: center;
