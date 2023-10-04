@@ -8,4 +8,5 @@ A SBLock é uma empresa _fictícia_ focada na digitalização dos produtos de se
 ## Desenvolvedores:
 
 [Rafael Rosseto](https://github.com/rossetow)
+
 [Pedro Cardoso](https://github.com/PedroCardosoFaleiro)
