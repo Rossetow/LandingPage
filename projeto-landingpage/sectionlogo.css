@@ -81,9 +81,12 @@
 
 .conteinerSobre{
     background-color: cadetblue;
-    height: calc(100vh - 58px);
-    max-height: calc(52vw + 64px);
+    
+    max-width: 100vw;
+    grid-template-columns: 1fr 1fr;
 }
+
+
 
 /*------Header------*/
 
