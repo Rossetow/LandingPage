@@ -7,7 +7,7 @@
 .janela {
     position: relative;
     height: calc(100vh - 58px);
-    max-height: calc(58vw + 64px);
+    max-height: calc(52vw + 64px);
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -16,7 +16,7 @@
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-image: url(trabs.jpeg);
+    background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-sobre-fundo-de-madeira_34362-345.jpg?w=2000);
     background-size: 100%;
     background-position: 50%;
 }
@@ -75,7 +75,15 @@
     padding: 20px;
 }
 
+.janela-empresa{
+    display: flex;
+}
 
+.conteinerSobre{
+    background-color: cadetblue;
+    height: calc(100vh - 58px);
+    max-height: calc(52vw + 64px);
+}
 
 /*------Header------*/
 
