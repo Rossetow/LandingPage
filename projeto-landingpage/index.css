@@ -1,0 +1,623 @@
+/*STYLES GERAIS*/
+
+.titulo{
+    max-width: 100vw;
+    height: fit-content;
+    background-color: #193d53;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*STYLE HEADER*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+    height: 100%;
+}
+
+li{
+  list-style: none;  
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  transition-timing-function: ease-in-out 0.3s;
+}
+
+header nav{
+    display: flex;
+    height: 15vh;
+    padding-left: 1vw;
+    max-width: 100vw;
+    background-color: #f8f7f3;
+}
+
+nav img{
+    height: 90%;
+    max-width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    background-color:#193d53;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+#a-contato{
+    background-color: #373636; 
+}
+
+a:hover{
+    background-color:#15AAFF;
+    font-size:1.5em ;
+}
+
+#a-contato:hover{
+    background-color: gray;
+    font-size: 1.5em;
+}
+
+/*STYLE SECTION LOGO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:#000000;
+    position: absolute;
+    opacity: 0.4;
+    border-radius: 15px;
+}
+
+h3{
+    z-index: 1;
+}
+
+p{
+    z-index: 99;
+}
+
+.janela {
+    position: relative;
+    height: calc(100vh - 58px);
+    max-height: calc(52vw + 64px);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-sobre-fundo-de-madeira_34362-345.jpg?w=2000);
+    background-size: 100%;
+    background-position: 50%;
+    z-index: 0;
+}
+
+.colorback {
+    background: #232323;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner-logo > img{
+    z-index: 2;
+}
+
+.janela-texto {
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    color: #ffffff;
+    max-width: 600px;
+}
+
+
+.caixa-carro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center ;
+    background-image: url(Carro.jpg);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    background-position: 50%;
+    color:#ffffff;
+    border-radius: 15px;
+}
+
+.caixa-vida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center ;
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2022/05/Mate%CC%81ria1.jpg?resize=916%2C515&quality=50&strip=all");
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    color:#ffffff;
+    border-radius: 15px;
+}
+
+.caixa-casa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center ;
+    background-image: url("https://redelojacorr.com.br/wp-content/uploads/2022/07/home-insurance-concept-and-real-estate-businesswo-2022-07-01-07-12-25-utc-scaled-1.jpg");
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    box-shadow: 1px 1px 15px gray;
+    background-position: 50%;
+    color:#ffffff;
+    border-radius: 15px;
+}
+
+.caixa-empresarial{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center ;
+    background-image: url("https://images.pexels.com/photos/4427957/pexels-photo-4427957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    box-shadow: 1px 1px 15px gray;
+    color:#ffffff;
+    border-radius: 15px;
+}
+
+.caixa-civil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center ;
+    background-image: url("https://jacyaraseguros.com.br/wp-content/uploads/2021/04/Responsabilidade-Civil-geral-1-1.jpg");
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    box-shadow: 1px 1px 15px gray;
+    background-position: 50%;
+    color:#ffffff;
+    border-radius: 15px;
+}
+
+.caixa-idoso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center ;
+    background-image: url("https://blog.cresol.com.br/wp-content/uploads/2022/01/casal-de-idosos-felizes.jpg");
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    box-shadow: 1px 1px 15px gray;
+    background-position: 50%;
+    color:#ffffff;
+    border-radius: 15px;
+}
+
+.caixa-sobre{
+    display: flex;
+    align-items: end;
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+    color: #ffffff;
+    text-shadow: 4px 4px 10px #232323;
+}
+
+.conteinerCaixa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.janela-empresa{
+    display: flex;
+}
+
+.conteinerSobre{
+    display: flex;
+    height: 38vw;
+    max-width: 100vw;
+    background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-size: 100%;
+    background-position: 50%;
+    z-index: 99;
+}
+
+.div > h1{
+    height: 13vh;
+    padding: 10px;
+    color: #f8f7f3;
+}
+
+/*------Telefone------*/
+@media screen and (max-width: 414px){
+    .janela {
+        position: relative;
+        height: calc(100vh - 58px);
+        max-height: calc(52vw + 64px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-sobre-fundo-de-madeira_34362-345.jpg?w=2000);
+        background-size: 120%;
+        background-position: 50%;
+        
+    }
+
+    .banner-logo > img{
+        height: 150px;
+        z-index: 1;
+    }
+
+    .overlay{
+        height: 100%;
+        width: 100%;
+        background-color:#000000;
+        position: absolute;
+        opacity: 0.5;
+        border-radius: 15px;
+    }
+    
+    .colorback {
+        background: #232323;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        position: absolute;
+        z-index: 99;
+    }
+    
+    .janela-texto {
+        text-align: center;
+        display: -ms-flexbox;
+        display: flex;
+        color: #ffffff;
+        max-width: 600px;
+    }
+    
+    .conteinerCaixa{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .conteinerCaixa >.caixa-carro> p{
+        padding: 30px;
+    }
+
+    .conteinerCaixa >.caixa-vida> p{
+        padding: 30px;
+    }
+
+    .conteinerCaixa >.caixa-empresarial> p{
+        padding: 30px;
+    }
+
+    .conteinerCaixa >.caixa-civil> p{
+        padding: 30px;
+    }
+
+    .conteinerCaixa >.caixa-idoso> p{
+        padding: 30px;
+    }
+
+    .conteinerCaixa >.caixa-casa> p{
+        padding: 30px;
+    }
+
+    .caixa-carro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center ;
+        background-image: url(Carro.jpg);
+        background-size: cover;
+        height: 50vh;
+        position: relative;
+        box-shadow: 1px 1px 15px rgb(0, 0, 0);
+        background-position: 50%;
+        color:#ffffff;
+        border-radius: 15px;
+    }
+    
+    .caixa-vida{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center ;
+        background-image: url("https://www.infomoney.com.br/wp-content/uploads/2022/05/Mate%CC%81ria1.jpg?resize=916%2C515&quality=50&strip=all");
+        background-size: cover;
+        height: 50vh;
+        position: relative;
+        box-shadow: 1px 1px 15px rgb(0, 0, 0);
+        color:#ffffff;
+        border-radius: 15px;
+    }
+    
+    .caixa-casa{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center ;
+        background-image: url("https://redelojacorr.com.br/wp-content/uploads/2022/07/home-insurance-concept-and-real-estate-businesswo-2022-07-01-07-12-25-utc-scaled-1.jpg");
+        background-size: cover;
+        height: 50vh;
+        position: relative;
+        box-shadow: 1px 1px 15px gray;
+        background-position: 50%;
+        color:#ffffff;
+        border-radius: 15px;
+    }
+    
+    .caixa-empresarial{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center ;
+        background-image: url("https://images.pexels.com/photos/4427957/pexels-photo-4427957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: cover;
+        height: 50vh;
+        position: relative;
+        box-shadow: 1px 1px 15px gray;
+        color:#ffffff;
+        border-radius: 15px;
+    }
+    
+    .caixa-civil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center ;
+        background-image: url("https://jacyaraseguros.com.br/wp-content/uploads/2021/04/Responsabilidade-Civil-geral-1-1.jpg");
+        background-size: cover;
+        height: 50vh;
+        position: relative;
+        box-shadow: 1px 1px 15px gray;
+        background-position: 50%;
+        color:#ffffff;
+        border-radius: 15px;
+    }
+    
+    .caixa-idoso{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center ;
+        background-image: url("https://blog.cresol.com.br/wp-content/uploads/2022/01/casal-de-idosos-felizes.jpg");
+        background-size: cover;
+        height: 50vh;
+        position: relative;
+        box-shadow: 1px 1px 15px gray;
+        background-position: 50%;
+        color:#ffffff;
+        border-radius: 15px;
+    }
+    
+    .caixa-sobre{
+        display: flex;
+        align-items: end;
+        text-align: center;
+        margin: 0px 0px 80px 0px;
+        color: #ffffff;
+        text-shadow: 4px 4px 10px #232323;
+    }
+    
+    .conteinerSobre{
+        height: 450px;
+        max-width: 740px;
+        background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: 50%;
+        z-index: 99;
+    }
+    
+    .linha-azul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #193d53;
+        height: 100%;
+        border: 1px solid black;
+        color: #ffffff;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .div > h1{
+        height: 13vh;
+        padding: 10px;
+        color: #f8f7f3;
+    }
+}
+/*STYLE TIME*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-time{
+    background-color: #F8F7F3;
+    margin-top: 20px;
+}
+
+.time{
+    max-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    gap: 20px;
+}
+
+.row-time{
+    display: grid;
+    max-height: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-radius: 19px;
+    padding: 15px;
+    gap: 20px;
+    box-shadow: 2px 2px 18px gray;
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+}
+
+.sobre-mim{
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes-sociais a{
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.redes-sociais img {
+    width: 100%;
+    height: auto;
+}
+
+.time div{
+    max-width: 100%;
+    color: black;
+}
+
+.time img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+/*STYLE FOOTER*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-footer{
+    display: flex;
+    background-color: #193d53;
+    max-width: 100vw;
+    height: 25vh;
+    padding: 10px;
+    color: #f8f7f3;
+}
+
+section img{
+    height: 70%;
+    margin-left: 10px;
+}
+
+.container-footer section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-height: 100%;
+    padding: 15px;
+}
+
+section div{
+    margin-right: 30px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F8F7F3;
+}
