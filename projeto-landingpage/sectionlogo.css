@@ -413,6 +413,16 @@ section div{
         
     }
 
+    .conteinerSobre .image-sobre{
+    height: 448px;
+    background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
+    position: absolute;
+    background-size: 222%;
+    background-position: 38%;
+    z-index: 0;
+    filter: blur(2px);
+    }
+
     .banner-logo > img{
         height: 150px;
         z-index: 1;
@@ -583,7 +593,6 @@ section div{
     .conteinerSobre{
         height: 450px;
         max-width: 740px;
-        background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
         display: flex;
         flex-direction: column;
         align-items: center;
