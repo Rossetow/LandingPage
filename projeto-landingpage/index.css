@@ -11,12 +11,13 @@
 }
 
 
-/*STYLE HEADER*/
-
 * {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
 }
+
+/*STYLE HEADER*/
 
 nav div{
     display: flex;
@@ -44,7 +45,7 @@ li{
 
 header nav{
     display: flex;
-    height: 15vh;
+    height: 10vh;
     padding-left: 1vw;
     max-width: 100vw;
     background-color: #f8f7f3;
@@ -84,14 +85,7 @@ a:hover{
 }
 
 /*STYLE SECTION LOGO*/
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
-
-  * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Nunito Sans', sans-serif;
-}
 
 .overlay{
     height: 100%;
@@ -100,6 +94,7 @@ a:hover{
     position: absolute;
     opacity: 0.4;
     border-radius: 15px;
+    backdrop-filter: blur(40px);
 }
 
 h3{
@@ -114,7 +109,6 @@ p{
     position: relative;
     height: calc(100vh - 58px);
     max-height: calc(52vw + 64px);
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -149,6 +143,65 @@ p{
     max-width: 600px;
 }
 
+.caixa-carro .image-carro {
+    background-image: url(Carro.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 14px;
+    filter: blur(2px);
+}
+
+.caixa-casa .image-casa {
+    background-image: url("https://redelojacorr.com.br/wp-content/uploads/2022/07/home-insurance-concept-and-real-estate-businesswo-2022-07-01-07-12-25-utc-scaled-1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 14px;
+    filter: blur(2px);
+}
+
+.caixa-vida .image-vida {
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2022/05/Mate%CC%81ria1.jpg?resize=916%2C515&quality=50&strip=all");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 14px;
+    filter: blur(2px);
+}
+
+.caixa-civil .image-civil {
+    background-image: url("https://jacyaraseguros.com.br/wp-content/uploads/2021/04/Responsabilidade-Civil-geral-1-1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 14px;
+    filter: blur(2px);
+}
+
+.caixa-empresarial .image-empresarial {
+    background-image: url("https://images.pexels.com/photos/4427957/pexels-photo-4427957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 14px;
+    filter: blur(2px);
+}
+
+.caixa-idoso .image-idoso {
+    background-image: url("https://blog.cresol.com.br/wp-content/uploads/2022/01/casal-de-idosos-felizes.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 14px;
+    filter: blur(2px);
+}
 
 .caixa-carro{
     display: flex;
@@ -156,8 +209,6 @@ p{
     justify-content: center;
     flex-direction: column;
     text-align: center ;
-    background-image: url(Carro.jpg);
-    background-size: cover;
     height: 50vh;
     position: relative;
     box-shadow: 1px 1px 15px rgb(0, 0, 0);
@@ -172,8 +223,6 @@ p{
     justify-content: center;
     flex-direction: column;
     text-align: center ;
-    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2022/05/Mate%CC%81ria1.jpg?resize=916%2C515&quality=50&strip=all");
-    background-size: cover;
     height: 50vh;
     position: relative;
     box-shadow: 1px 1px 15px rgb(0, 0, 0);
@@ -187,8 +236,6 @@ p{
     justify-content: center;
     flex-direction: column;
     text-align: center ;
-    background-image: url("https://redelojacorr.com.br/wp-content/uploads/2022/07/home-insurance-concept-and-real-estate-businesswo-2022-07-01-07-12-25-utc-scaled-1.jpg");
-    background-size: cover;
     height: 50vh;
     position: relative;
     box-shadow: 1px 1px 15px gray;
@@ -198,14 +245,11 @@ p{
 }
 
 .caixa-empresarial{
-    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center ;
-    background-image: url("https://images.pexels.com/photos/4427957/pexels-photo-4427957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: cover;
     height: 50vh;
     position: relative;
     box-shadow: 1px 1px 15px gray;
@@ -219,8 +263,6 @@ p{
     justify-content: center;
     flex-direction: column;
     text-align: center ;
-    background-image: url("https://jacyaraseguros.com.br/wp-content/uploads/2021/04/Responsabilidade-Civil-geral-1-1.jpg");
-    background-size: cover;
     height: 50vh;
     position: relative;
     box-shadow: 1px 1px 15px gray;
@@ -235,8 +277,6 @@ p{
     justify-content: center;
     flex-direction: column;
     text-align: center ;
-    background-image: url("https://blog.cresol.com.br/wp-content/uploads/2022/01/casal-de-idosos-felizes.jpg");
-    background-size: cover;
     height: 50vh;
     position: relative;
     box-shadow: 1px 1px 15px gray;
@@ -483,7 +523,7 @@ p{
         z-index: 99;
     }
     
-    .linha-azul{
+    .titulo{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -503,14 +543,10 @@ p{
 }
 /*STYLE TIME*/
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 .container-time{
     background-color: #F8F7F3;
     margin-top: 20px;
+    max-width: 100vw;
 }
 
 .time{
@@ -580,13 +616,68 @@ p{
     border-radius: 10%;
 }
 
-/*STYLE FOOTER*/
+/*STYLE CONTATO*/
 
-*{
-    margin: 0;
-    padding: 0;
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    padding: 10px 10px 0px 10px;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50vw;
+    height: 90%; 
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    border-radius: 19px;
+    padding: 15px;
+}
+
+input{
+    border-radius: 19px;
+    margin-top: 10px;
+    height: 12%;
+    border: 2px grey solid;
+    display: flex;
+    padding: 4px;
+}
+
+textarea{
+    margin-top: 10px;
+    border-radius: 19px 19px 0px 0px;
+    height: 40%;
+    border: 2px grey solid;
+    border-bottom: none;
+    padding: 4px;
+}
+.button-enviar{
+    text-decoration: none; 
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    background-color:#193d53;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+    border: none;
+    height: 10%;
+}
+
+.button-enviar:hover{
+    background-color:darkcyan;
+}
+
+/*STYLE FOOTER*/
+
+footer{
+    margin-top: 10px;
+}
 .container-footer{
     display: flex;
     background-color: #193d53;

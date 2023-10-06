@@ -1,0 +1,49 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    height: 70vh;
+    width: 50vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50vw;
+    height: 60vh; 
+}
+
+input{
+    border-radius: 19px;
+    margin-top: 10px;
+    height: 20%;
+    border: 2px grey solid;
+}
+
+textarea{
+    margin-top: 10px;
+    height: 30%;
+    border: 2px grey solid;
+
+}
+.button-enviar{
+    text-decoration: none; 
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    background-color:#15AAFF;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+    border: none;
+    height: 10%;
+}
+
+.button-enviar:hover{
+    background-color:darkcyan;
+}
