@@ -51,7 +51,7 @@ p{
     filter: blur(2px);
 }
 
-.conteinerSobre .image-sobre{
+.containerSobre .image-sobre{
     background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
     position: absolute;
     width: 100%;
@@ -234,7 +234,7 @@ p{
     z-index: 1;
 }
 
-.conteinerCaixa{
+.containerCaixa{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -242,7 +242,7 @@ p{
     padding: 20px;
 }
 
-.conteinerSobre{
+.containerSobre{
     display: flex;
     height: 38vw;
     max-width: 100vw;
@@ -343,27 +343,27 @@ header > nav > ul > li > #a-contato:hover{
     font-size: 1.5em;
 }
 
-.conteinerCaixa >.caixa-carro> p{
+.containerCaixa >.caixa-carro> p{
     padding: 30px;
 }
 
-.conteinerCaixa >.caixa-vida> p{
+.containerCaixa >.caixa-vida> p{
     padding: 30px;
 }
 
-.conteinerCaixa >.caixa-empresarial> p{
+.containerCaixa >.caixa-empresarial> p{
     padding: 30px;
 }
 
-.conteinerCaixa >.caixa-civil> p{
+.containerCaixa >.caixa-civil> p{
     padding: 30px;
 }
 
-.conteinerCaixa >.caixa-idoso> p{
+.containerCaixa >.caixa-idoso> p{
     padding: 30px;
 }
 
-.conteinerCaixa >.caixa-casa> p{
+.containerCaixa >.caixa-casa> p{
     padding: 30px;
 }
 
@@ -413,7 +413,7 @@ section div{
         
     }
 
-    .conteinerSobre .image-sobre{
+    .containerSobre .image-sobre{
     height: 448px;
     background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
     position: absolute;
@@ -454,7 +454,7 @@ section div{
         max-width: 600px;
     }
     
-    .conteinerCaixa{
+    .containerCaixa{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -462,27 +462,27 @@ section div{
         padding: 20px;
     }
 
-    .conteinerCaixa >.caixa-carro> p{
+    .containerCaixa >.caixa-carro> p{
         padding: 30px;
     }
 
-    .conteinerCaixa >.caixa-vida> p{
+    .containerCaixa >.caixa-vida> p{
         padding: 30px;
     }
 
-    .conteinerCaixa >.caixa-empresarial> p{
+    .containerCaixa >.caixa-empresarial> p{
         padding: 30px;
     }
 
-    .conteinerCaixa >.caixa-civil> p{
+    .containerCaixa >.caixa-civil> p{
         padding: 30px;
     }
 
-    .conteinerCaixa >.caixa-idoso> p{
+    .containerCaixa >.caixa-idoso> p{
         padding: 30px;
     }
 
-    .conteinerCaixa >.caixa-casa> p{
+    .containerCaixa >.caixa-casa> p{
         padding: 30px;
     }
 
@@ -590,7 +590,7 @@ section div{
         text-shadow: 4px 4px 10px #232323;
     }
     
-    .conteinerSobre{
+    .containerSobre{
         height: 450px;
         max-width: 740px;
         display: flex;

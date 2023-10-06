@@ -151,7 +151,7 @@ a:hover{
     text-align: center ;
 }
 
-.conteinerCaixa{
+.containerCaixa{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
