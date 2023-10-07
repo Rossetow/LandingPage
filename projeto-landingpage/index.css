@@ -128,7 +128,7 @@ p{
 }
 
 .janela .image-janela{
-    background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-sobre-fundo-de-madeira_34362-345.jpg?w=2000);
+    background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-3-fundo-de-madeira_34362-345.jpg?w=2000);
     height: 100%;
     max-width: 100vw;
     position: absolute;
@@ -138,7 +138,7 @@ p{
     filter: blur(2px);
 }
 
-.containerSobre .image-sobre{
+.container3 .image-3{
     background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
     position: absolute;
     width: 100%;
@@ -353,8 +353,206 @@ p{
     color: #f8f7f3;
 }
 
-/*------Telefone------*/
-@media screen and (max-width: 414px){
+/*STYLE TIME*/
+
+.container-time{
+    background-color: #F8F7F3;
+    margin-top: 20px;
+    max-width: 100vw;
+}
+
+.time{
+    max-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    gap: 20px;
+}
+
+.row-time{
+    display: grid;
+    max-height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 19px;
+    padding: 15px;
+    gap: 20px;
+    box-shadow: 2px 2px 18px gray;
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+}
+
+.sobre-mim{
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes-sociais a{
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.redes-sociais img {
+    width: 100%;
+    height: auto;
+}
+
+.time div{
+    max-width: 100%;
+    color: black;
+}
+
+.time img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+/*STYLE CONTATO*/
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    padding: 10px 10px 0px 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50vw;
+    height: 90%; 
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    border-radius: 19px;
+    padding: 15px;
+}
+
+input{
+    border-radius: 19px;
+    margin-top: 10px;
+    height: 12%;
+    border: 2px grey solid;
+    display: flex;
+    padding: 4px;
+}
+
+textarea{
+    margin-top: 10px;
+    border-radius: 19px 19px 0px 0px;
+    height: 40%;
+    border: 2px grey solid;
+    border-bottom: none;
+    padding: 4px;
+}
+.button-enviar{
+    text-decoration: none; 
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    background-color:#193d53;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+    border: none;
+    height: 10%;
+}
+
+.button-enviar:hover{
+    background-color:darkcyan;
+}
+
+/*STYLE FOOTER*/
+
+footer{
+    margin-top: 10px;
+}
+.container-footer{
+    display: flex;
+    background-color: #193d53;
+    max-width: 100vw;
+    height: 25vh;
+    padding: 10px;
+    color: #f8f7f3;
+}
+
+section img{
+    height: 92%;
+    margin-left: 10px;
+}
+
+.container-footer section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-height: 100%;
+    padding: 15px;
+}
+
+.janela div{
+    margin-right: 30px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 414px){  
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*header*/
+
+    #logo-frase{
+        display: none;
+    }
+
+    header{
+        height: 8vh;
+    }
+    header nav{
+        height: 100%;
+        justify-content: start;
+        background-color: #193d53;
+    }    
+
+    nav ul{
+        width: 100%;
+    }
+
+
+    /*main*/
+
     .janela {
         position: relative;
         height: calc(100vh - 58px);
@@ -363,7 +561,7 @@ p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-sobre-fundo-de-madeira_34362-345.jpg?w=2000);
+        background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-3-fundo-de-madeira_34362-345.jpg?w=2000);
         background-size: 120%;
         background-position: 50%;
         
@@ -527,6 +725,10 @@ p{
         color:#ffffff;
         border-radius: 15px;
     }
+
+    .containerCaixa>div{
+        height: 30vh;
+    }
     
     .caixa-sobre{
         display: flex;
@@ -535,205 +737,90 @@ p{
         margin: 0px 0px 80px 0px;
         color: #ffffff;
         text-shadow: 4px 4px 10px #232323;
+        margin: 0px;
+    }
+
+    .caixa-sobre h2{
+        filter: none;
     }
     
     .containerSobre{
-        height: 450px;
-        max-width: 740px;
+        height: 40vh;
+        max-width: 100vw;
         background-image: url(https://uploads-ssl.webflow.com/6123b0b59d289c79056d07d3/63f7807a9c0cb7674bb15fa1_Como-escolher-a-categoria-ideal-de-uma-empresa.jpg);
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         background-position: 50%;
         z-index: 99;
     }
-    
+
     .titulo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        max-width: 100vw;
+        height: fit-content;
         background-color: #193d53;
-        height: 100%;
-        border: 1px solid black;
-        color: #ffffff;
-        width: 100%;
-        height: 50px;
-    }
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }   
     
     .div > h1{
         height: 13vh;
         padding: 10px;
         color: #f8f7f3;
     }
-}
-/*STYLE TIME*/
 
-.container-time{
-    background-color: #F8F7F3;
-    margin-top: 20px;
-    max-width: 100vw;
-}
+    /*time*/
 
-.time{
-    max-height: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    padding: 10px;
-    gap: 20px;
-}
+    .row-time{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 1fr;
+        gap: 0px;
+        justify-content: center;
+    }
 
-.row-time{
-    display: grid;
-    max-height: 100%;
-    grid-template-columns: 1fr 2fr 1fr;
-    border-radius: 19px;
-    padding: 15px;
-    gap: 20px;
-    box-shadow: 2px 2px 18px gray;
-}
+    .time{
+        height: fit-content;
+    }
 
-.foto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
+    .redes-sociais{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.foto img{
-    width: 100%;
-    height: auto;
-}
+    #redes-sociais-outside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.sobre-mim{
-    border-radius: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .foto img{
+        margin: 0px;
+    }
 
-.redes-sociais{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    .sobre-mim{
+        font-size: larger;
+    }
 
-.redes-sociais a{
-    width: 25%;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0px 10px 0px;
-}
+    /*contato*/
 
-.redes-sociais img {
-    width: 100%;
-    height: auto;
-}
+    #contato{
+        max-height: 30vh    ;
+    }
 
-.time div{
-    max-width: 100%;
-    color: black;
-}
+    /*footer*/
 
-.time img{
-    width: 100%;
-    border-radius: 10%;
-}
+    .container-footer{
+        height: 5vh;
+    }
 
-/*STYLE CONTATO*/
+    #logo-senac{
+        width: 10%;
+    }
 
-.contato{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    padding: 10px 10px 0px 10px;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 50vw;
-    height: 90%; 
-    box-shadow: 1px 1px 15px rgb(0, 0, 0);
-    border-radius: 19px;
-    padding: 15px;
-}
-
-input{
-    border-radius: 19px;
-    margin-top: 10px;
-    height: 12%;
-    border: 2px grey solid;
-    display: flex;
-    padding: 4px;
-}
-
-textarea{
-    margin-top: 10px;
-    border-radius: 19px 19px 0px 0px;
-    height: 40%;
-    border: 2px grey solid;
-    border-bottom: none;
-    padding: 4px;
-}
-.button-enviar{
-    text-decoration: none; 
-    width: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    background-color:#193d53;
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.1s;
-    border: none;
-    height: 10%;
-}
-
-.button-enviar:hover{
-    background-color:darkcyan;
-}
-
-/*STYLE FOOTER*/
-
-footer{
-    margin-top: 10px;
-}
-.container-footer{
-    display: flex;
-    background-color: #193d53;
-    max-width: 100vw;
-    height: 25vh;
-    padding: 10px;
-    color: #f8f7f3;
-}
-
-section img{
-    height: 92%;
-    margin-left: 10px;
-}
-
-.container-footer section{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    max-height: 100%;
-    padding: 15px;
-}
-
-section div{
-    margin-right: 30px;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    background-color: #F8F7F3;
+    footer div{
+        font-size: smaller;
+    }
 }
