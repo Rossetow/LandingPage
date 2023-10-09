@@ -229,8 +229,8 @@ p{
     align-items: end;
     text-align: center;
     margin: 0px 0px 80px 0px;
-    color: #ffffff;
-    text-shadow: 4px 4px 10px #232323;
+    color: #000000;
+    text-shadow: 4px 4px 10px #626262;
     z-index: 1;
 }
 
@@ -397,7 +397,17 @@ section div{
 }
 
 
+
+
+
+
 /*------Telefone------*/
+
+
+
+
+
+
 @media screen and (max-width: 414px){
     .janela {
         position: relative;
@@ -407,10 +417,13 @@ section div{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url(https://img.freepik.com/fotos-premium/tabela-de-mesa-de-escritorio-de-objetos-de-trabalho-e-negocios-de-negocios-sobre-fundo-de-madeira_34362-345.jpg?w=2000);
         background-size: 120%;
         background-position: 50%;
-        
+    }
+
+    .containerSobre{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     .containerSobre .image-sobre{
@@ -585,9 +598,9 @@ section div{
         display: flex;
         align-items: end;
         text-align: center;
-        margin: 0px 0px 80px 0px;
-        color: #ffffff;
-        text-shadow: 4px 4px 10px #232323;
+        margin: 0px 0px 10px 0px;
+        color: #000000;
+        text-shadow: 2px 2px 5px #6a6a6a;
     }
     
     .containerSobre{
