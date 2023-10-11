@@ -849,7 +849,8 @@ body{
     /*contato*/
 
     #contato{
-        max-height: 30vh    ;
+        max-height: 30vh;
+        padding: 20px;
     }
 
     /*footer*/
