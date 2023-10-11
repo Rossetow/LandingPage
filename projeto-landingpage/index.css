@@ -514,6 +514,11 @@ footer{
     color: #f8f7f3;
 }
 
+.container-footer section > p {
+    font-size: 16px;
+    margin: 0px 170px;
+}
+
 section img{
     height: 92%;
     margin-left: 10px;
@@ -537,6 +542,10 @@ body{
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+}
+
+#logo-senac{
+    width: 15%;
 }
 
 /*telefone*/
@@ -850,10 +859,17 @@ body{
     }
 
     #logo-senac{
-        width: 10%;
+        width: 14%;
+        height: 380%;
     }
 
     footer div{
         font-size: smaller;
     }
+
+    
+.container-footer section > p{
+    font-size: 11px;
+    margin: 0;
+}
 }
